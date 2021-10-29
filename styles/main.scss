@@ -1,0 +1,51 @@
+@import './fonts';
+@import './global';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --shadow: rgba(0,0,0,0.5);
+  --light-shadow: rgba(0,0,0,0.2);
+  --dark-shadow: rgba(0,0,0,0.7);
+  --drop-shadow: -5px 10px 5px;
+}
+
+:root.dark {
+  --shadow: rgba(255,255,255,0.4);
+  --light-shadow: rgba(255,255,255,0.2);
+  --dark-shadow: rgba(255,255,255,0.6);
+  --drop-shadow: 0px 0px 7px;
+}
+
+$gradient_speed: 20s;
+$gradient_steps: steps(50);
+.animatedGradient {
+  background: linear-gradient(270deg, #3bb999, #3b97b9, #c15454);
+  background-size: 600% 600%;
+
+  -webkit-animation: GradientAnimation $gradient_speed $gradient_steps infinite;
+  -moz-animation: GradientAnimation $gradient_speed $gradient_steps infinite;
+  animation: GradientAnimation $gradient_speed $gradient_steps infinite;
+}
+
+@-webkit-keyframes GradientAnimation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes GradientAnimation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes GradientAnimation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}

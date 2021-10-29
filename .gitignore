@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.history/
+*.log
+other/
+.env.*
+
+!.env.sample

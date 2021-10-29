@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'MinecraftTen';
+  src: url('/fonts/MinecraftTen-VGORe.ttf') format('truetype');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'MinecraftRegular';
+  src: url('/fonts/MinecraftRegular-Bmg3.otf') format('opentype');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('/fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoThin';
+  src: url('/fonts/Roboto-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PTSansBold';
+  src: url('/fonts/PTSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PTSans';
+  src: url('/fonts/PTSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PTSansItalic';
+  src: url('/fonts/PTSans-Italic.ttf') format('truetype');
+}
